@@ -56,20 +56,9 @@
 	var React = __webpack_require__(2);
 	var ReactDOM = __webpack_require__(159);
 
-	var HelloWorld = React.createClass({
-		displayName: 'HelloWorld',
+	var routes = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./config/routes\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
-		render: function () {
-			return React.createElement(
-				'div',
-				null,
-				'Hello Its Me'
-			);
-		}
-
-	});
-
-	ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('app'));
+	ReactDOM.render(routes, document.getElementById('app'));
 
 /***/ },
 /* 2 */
