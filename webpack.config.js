@@ -8,9 +8,9 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 
 module.exports = {
   entry: [
-    './app/index.jsx'
+    './app/index.jsx',
   ],
-  module: 
+  module:
   {
   	loaders: [
       {test: /\.jsx$/, exclude: /node_modules/, loader: "babel-loader"},

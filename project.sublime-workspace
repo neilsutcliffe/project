@@ -4,27 +4,81 @@
 		"selected_items":
 		[
 			[
-				"new",
-				"newHeight"
+				"mc_m",
+				"mc_embed_signup_scroll"
+			],
+			[
+				"back",
+				"background-origin"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ajax-",
+				"ajax-loading"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"split",
+				"splitBy"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"contents": "/******/ (function(modules) { // webpackBootstrap\n/******/ 	// The module cache\n/******/ 	var installedModules = {};\n\n/******/ 	// The require function\n/******/ 	function __webpack_require__(moduleId) {\n\n/******/ 		// Check if module is in cache\n/******/ 		if(installedModules[moduleId])\n/******/ 			return installedModules[moduleId].exports;\n\n/******/ 		// Create a new module (and put it into the cache)\n/******/ 		var module = installedModules[moduleId] = {\n/******/ 			exports: {},\n/******/ 			id: moduleId,\n/******/ 			loaded: false\n/******/ 		};\n\n/******/ 		// Execute the module function\n/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);\n\n/******/ 		// Flag the module as loaded\n/******/ 		module.loaded = true;\n\n/******/ 		// Return the exports of the module\n/******/ 		return module.exports;\n/******/ 	}\n\n\n/******/ 	// expose the modules object (__webpack_modules__)\n/******/ 	__webpack_require__.m = modules;\n\n/******/ 	// expose the module cache\n/******/ 	__webpack_require__.c = installedModules;\n\n/******/ 	// __webpack_public_path__\n/******/ 	__webpack_require__.p = \"\";\n\n/******/ 	// Load entry module and return exports\n/******/ 	return __webpack_require__(0);\n/******/ })\n/************************************************************************/\n/******/ ([\n/* 0 */\n/***/ function(module, exports, __webpack_require__) {\n\n	(function webpackMissingModule() { throw new Error(\"Cannot find module \\\"./app/index.js\\\"\"); }());\n\n\n/***/ }\n/******/ ]);",
+			"file": "/C/Users/Neil Sutcliffe/Desktop/Projects/workout/dist/index_bundle.js",
+			"file_size": 1508,
+			"file_write_time": 131024614882742624,
 			"settings":
 			{
-				"buffer_size": 489,
+				"buffer_size": 1508,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/index.jsx",
+			"contents": "Html Webpack Plugin:\n<pre>\n  Error: Child compilation failed:\n  Entry module not found: Error: Cannot resolve 'file' or 'directory' C:\\Users\\N  eil Sutcliffe\\Desktop\\Projects\\workout\\app\\index.html in C:\\Users\\Neil Sutclif  fe\\Desktop\\Projects\\workout:\n  Error: Cannot resolve 'file' or 'directory' C:\\Users\\Neil Sutcliffe\\Desktop\\Pr  ojects\\workout\\app\\index.html in C:\\Users\\Neil Sutcliffe\\Desktop\\Projects\\work  out\n  \n  - compiler.js:78 \n    [workout]/[html-webpack-plugin]/lib/compiler.js:78:16\n  \n  - Compiler.js:214 Compiler.<anonymous>\n    [workout]/[webpack]/lib/Compiler.js:214:10\n  \n  - Compiler.js:403 \n    [workout]/[webpack]/lib/Compiler.js:403:12\n  \n  - Tapable.js:67 Compiler.next\n    [workout]/[webpack]/[tapable]/lib/Tapable.js:67:11\n  \n  - CachePlugin.js:40 Compiler.<anonymous>\n    [workout]/[webpack]/lib/CachePlugin.js:40:4\n  \n  - Tapable.js:71 Compiler.applyPluginsAsync\n    [workout]/[webpack]/[tapable]/lib/Tapable.js:71:13\n  \n  - Compiler.js:400 Compiler.<anonymous>\n    [workout]/[webpack]/lib/Compiler.js:400:9\n  \n  - Compilation.js:577 Compilation.<anonymous>\n    [workout]/[webpack]/lib/Compilation.js:577:13\n  \n  - Tapable.js:60 Compilation.applyPluginsAsync\n    [workout]/[webpack]/[tapable]/lib/Tapable.js:60:69\n  \n  - Compilation.js:572 Compilation.<anonymous>\n    [workout]/[webpack]/lib/Compilation.js:572:10\n  \n  - Tapable.js:60 Compilation.applyPluginsAsync\n    [workout]/[webpack]/[tapable]/lib/Tapable.js:60:69\n  \n  - Compilation.js:567 Compilation.<anonymous>\n    [workout]/[webpack]/lib/Compilation.js:567:9\n  \n  - Tapable.js:60 Compilation.applyPluginsAsync\n    [workout]/[webpack]/[tapable]/lib/Tapable.js:60:69\n  \n  - Compilation.js:563 Compilation.<anonymous>\n    [workout]/[webpack]/lib/Compilation.js:563:8\n  \n  - Tapable.js:60 Compilation.applyPluginsAsync\n    [workout]/[webpack]/[tapable]/lib/Tapable.js:60:69\n  \n  - Compilation.js:525 Compilation.seal\n    [workout]/[webpack]/lib/Compilation.js:525:7\n  \n  - Compiler.js:397 Compiler.<anonymous>\n    [workout]/[webpack]/lib/Compiler.js:397:15\n  \n  - Tapable.js:103 \n    [workout]/[webpack]/[tapable]/lib/Tapable.js:103:11\n  \n  - Compilation.js:445 Compilation.<anonymous>\n    [workout]/[webpack]/lib/Compilation.js:445:10\n  \n  - Compilation.js:344 Compilation.errorAndCallback\n    [workout]/[webpack]/lib/Compilation.js:344:3\n  \n  - Compilation.js:358 Compilation.<anonymous>\n    [workout]/[webpack]/lib/Compilation.js:358:11\n  \n  - NormalModuleFactory.js:29 onDoneResolving\n    [workout]/[webpack]/lib/NormalModuleFactory.js:29:20\n  \n  - NormalModuleFactory.js:85 \n    [workout]/[webpack]/lib/NormalModuleFactory.js:85:20\n  \n  - async.js:726 \n    [workout]/[webpack]/[async]/lib/async.js:726:13\n  \n  - async.js:52 \n    [workout]/[webpack]/[async]/lib/async.js:52:16\n  \n  - async.js:241 done\n    [workout]/[webpack]/[async]/lib/async.js:241:17\n  \n  - async.js:44 \n    [workout]/[webpack]/[async]/lib/async.js:44:16\n  \n  - async.js:723 \n    [workout]/[webpack]/[async]/lib/async.js:723:17\n  \n  - async.js:167 \n    [workout]/[webpack]/[async]/lib/async.js:167:37\n  \n  - UnsafeCachePlugin.js:24 \n    [workout]/[webpack]/[enhanced-resolve]/lib/UnsafeCachePlugin.js:24:19\n  \n</pre><script src=\"index_bundle.js\"></script>",
+			"file": "/C/Users/Neil Sutcliffe/Desktop/Projects/workout/dist/index.html",
+			"file_size": 3216,
+			"file_write_time": 131024614882742624,
 			"settings":
 			{
-				"buffer_size": 266,
-				"line_ending": "Windows"
+				"buffer_size": 3216,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -36,39 +90,11 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "package",
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
-				"quick",
-				"Git: Quick Commit"
-			],
-			[
-				"commit",
-				"Git: Commit"
-			],
-			[
-				"git status",
-				"Git: Status"
-			],
-			[
-				"Package",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: instal",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: install",
 				"Package Control: Install Package"
 			]
 		],
@@ -76,7 +102,7 @@
 	},
 	"console":
 	{
-		"height": 174.0,
+		"height": 182.0,
 		"history":
 		[
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -93,67 +119,61 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Neil/Desktop/project",
-		"/C/Users/Neil/Desktop/project/app",
-		"/C/Users/Neil/Desktop/project/dist"
+		"/C/Users/Neil Sutcliffe/Desktop/Projects/project"
 	],
 	"file_history":
 	[
-		"/C/Users/Neil/Desktop/project/app/index.jsx",
-		"/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
-		"/C/Users/Neil/Desktop/project/webpack.config.js",
-		"/C/Users/Neil/Desktop/project/app/index.html",
-		"/C/Git/Oasis/Oasis/Oasis.Webservices/Oasis.Webservices.Rest.MobileAPI/Web.config",
-		"/C/Users/Neil/Desktop/project/app/index.js",
-		"/C/Users/Neil/Desktop/project/.babelrc",
-		"/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Git/Master/Oasis/OasisManageService/OasisManageService/packages.config",
-		"/C/Git/Master/Oasis/OasisManageService/OasisManageServiceTestbed/packages.config",
-		"/C/Users/Neil/Desktop/project/package.json",
-		"/C/Users/Neil/Documents/SQL Scripts/Add Service to SQS Queues.sql",
-		"/C/Users/Neil/Downloads/ios-export-fixed.jsx",
-		"/C/Users/Neil/Downloads/android-export-square.jsx",
-		"/C/Users/Neil/Downloads/us-everything-export.jsx",
-		"/C/Users/Neil/Downloads/credentials.csv",
-		"/C/Users/Neil/AppData/Local/Temp/Temp1_pilot-b-20151101000000-20160307120206.zip/pilot-b-20151101000000-20160307120206.csv",
-		"/C/Chris Source/SourceSubversion/Wunelli.Data.DB/Wunelli.Data.DB/VehicleInformation.cs",
-		"/C/results.txt",
-		"/C/Users/Neil/Documents/SQL Scripts/Monthly Billing Counts.txt",
-		"/C/Users/Neil/Desktop/canada-imeis.csv",
-		"/C/Windows/Minidump/030216-4296-01.dmp",
-		"/C/Users/Neil/Desktop/us-export-to-ios.jsx",
-		"/C/Users/Neil/Downloads/Create Policy.txt",
-		"/C/Users/Neil/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/2SW1E0SA/ATT00001.txt",
-		"/C/Git/Oasis/Oasis/Oasis/Oasis.csproj.user",
-		"/C/Git/Oasis/Oasis/Oasis/.ebextensions/Deployment.config",
-		"/C/Users/Neil/Desktop/2067195-dump-extra.csv",
-		"/C/Users/Neil/Documents/Documentation/AWS Credentials.txt",
-		"/C/Users/Neil/Desktop/CopiedFromProd.config",
-		"/C/Users/Neil/AppData/Roaming/Skype/My Skype Received Files/CombinedTrip5_16_01_2016_11_00_00A.csv.transferred_flag",
-		"/C/Git/RAC/InsuranceSocial/InsuranceSocial.sln",
-		"/C/Git/RAC/InsuranceSocial/2017550-dump.csv",
-		"/C/Users/Neil/Desktop/2017550-dump.csv",
-		"/C/SVN/wunelli_manage_service/trunk/WunelliManageService/WunelliManageService/app.PROD.config",
-		"/C/SVN/wunelli_manage_service/trunk/WunelliManageService/WunelliManageService/app.config",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/ERROR/CombinedTrip3_09_12_2015_11_00_08.csv",
-		"/C/Users/Neil/.gitconfig",
-		"/C/Users/Neil/Documents/Documentation/SVN Details.txt",
-		"/C/Git/Oasis/Oasis/.vs/config/applicationhost_BASE_14252.config",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestCompletedFiles/CombinedTrip0_03_08_2014_12_00_06C.csv.transferred_flag",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/CombinedTrip16_01_02_2016_09_00_06.csv",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/ERROR/CombinedTrip0_10_12_2015_11_00_09.csv.transferred_flag",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/CombinedTrip2_01_02_2016_09_00_06.csv.transferred_flag",
-		"/C/temp/logs/201624",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/CombinedTrip2_01_02_2016_09_00_06.csv",
-		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestCompletedFiles/CombinedTrip0_03_08_2014_12_00_06C.csv",
-		"/D/New Text Document.txt",
-		"/C/Users/Neil/Documents/IISExpress/config/applicationhost.config",
-		"/C/Chris Source/VS2013ProductKey.txt"
+		"/C/Users/Neil Sutcliffe/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/Rar$DIa0.503/README.md",
+		"/C/Users/NEILSU~1/AppData/Local/Temp/7zO42B0.tmp/README.md",
+		"/C/Users/Neil Sutcliffe/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Neil Sutcliffe/Desktop/index.html",
+		"/C/Users/Neil Sutcliffe/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/Rar$EXa0.148/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/animation/script.js",
+		"/C/Users/Neil Sutcliffe/Desktop/animation/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/index.html.txt",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/8c130b25-58be-427e-b9b9-1ef11670c600/public_html/wp-content/themes/gameszone-child/theme_config/widgets/TFuse_Widget_Game_Info.php",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/8c130b25-58be-427e-b9b9-1ef11670c600/public_html/wp-content/themes/gameszone-child/widgets/TFuse_Widget_Game_Info.php",
+		"/D/Steam Library/SteamApps/common/dota 2 beta/installscript.vdf",
+		"/C/Users/Neil Sutcliffe/Downloads/TFuse_Widget_Game_Info.php",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/8c130b25-58be-427e-b9b9-1ef11670c600/public_html/wp-content/themes/gameszone-parent/single-game.php",
+		"/C/Program Files/Autodesk/SketchBook/Readme_English.html",
+		"/F/GIT/MarksVan/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/Flycase/Documentation/Flycase/doc.html",
+		"/C/Users/Neil Sutcliffe/Desktop/neilsutcliffe.com/cv/cv-projects.html",
+		"/C/Users/Neil Sutcliffe/Desktop/neilsutcliffe.com/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/bear clicker/js/app.js",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/6d334230-0608-4a13-ad15-7139de467598/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/Honey/www/js/app.js",
+		"/C/Users/Neil Sutcliffe/Desktop/Honey/www/css/app.css",
+		"/C/Users/Neil Sutcliffe/Desktop/Honey/www/investment.html",
+		"/C/Users/Neil Sutcliffe/Desktop/Honey/www/index.html",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/c72fec0a-ccff-4f35-8743-ff12ec3b7fb3/public_html/wordpress/wp-content/themes/flycase/style.css",
+		"/C/Users/Neil Sutcliffe/Downloads/themeforest-6193502-flycase-complete-music-solution-for-wordpress/flycase-package-1.1.3.8/Documentation/Flycase/doc.html",
+		"/C/Users/Neil Sutcliffe/Desktop/bear clicker/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/index.html",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/css/main.css",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/mailer.php",
+		"/D/Games/Planescape Torment/setup-pst-drawfix.tp2",
+		"/C/Users/Neil Sutcliffe/.gitconfig",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/main/style.css",
+		"/D/Games/Dying Light/Dying Light/visit-www.nosteam.ro.html",
+		"/C/Users/Neil Sutcliffe/Desktop/ProgressionPlayer/Player/demo/minimal-dark-skin.html",
+		"/C/Users/Neil Sutcliffe/Desktop/ProgressionPlayer/Player/css/progression-player.css",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/minimal-dark-skin.html",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/skin-minimal-dark.css",
+		"/C/Users/Neil Sutcliffe/Desktop/ProgressionPlayer/Help Section/General Help.html",
+		"/C/Users/Neil Sutcliffe/AppData/Local/Temp/Rar$EXa0.407/ProgressionPlayer/Help Section/General Help.html",
+		"/C/BOSS/Fallout New Vegas/BOSSlog.html",
+		"/C/Users/Neil Sutcliffe/Desktop/rhcp/upload to prod.ps1",
+		"/C/BOSS/Docs/BOSS ReadMe.html",
+		"/C/Users/Neil Sutcliffe/Desktop/bear clicker/scripts/app.js",
+		"/C/Users/Neil Sutcliffe/Desktop/bear clicker/Index"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -167,7 +187,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"trip"
+			"$log",
+			"9677",
+			"email",
+			"show_error",
+			"../"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -190,41 +214,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "/C/Users/Neil Sutcliffe/Desktop/Projects/workout/dist/index_bundle.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								486,
-								482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 266,
+						"buffer_size": 1508,
 						"regions":
 						{
 						},
@@ -243,6 +237,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Neil Sutcliffe/Desktop/Projects/workout/dist/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2024,
+								2024
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				}
@@ -251,11 +275,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -284,19 +308,11 @@
 	{
 		"height": 0.0
 	},
-	"output.git-commit":
-	{
-		"height": 116.0
-	},
-	"output.git-init":
-	{
-		"height": 116.0
-	},
 	"pinned_build_system": "",
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -330,12 +346,12 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
-	"status_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}
