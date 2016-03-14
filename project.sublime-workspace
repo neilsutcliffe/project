@@ -1,0 +1,357 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newHeight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeGit\n----------\n\n  Welcome to SublimeGit\n  =====================\n  \n  SublimeGit is a full-featured, commercial plugin for integrating\n  git into Sublime Text 2 and 3. To read more about it, or purchase\n  a license, go to https://sublimegit.net.\n  \n  \n  Quickstart\n  ----------\n  Make sure to restart Sublime Text after installing SublimeGit.\n  \n  Run the command \"Git: Status\" to open the status view. This\n  is where you'll spend most of the time when interacting with\n  git through SublimeGit. From here you can stage/unstage files,\n  manage stashes, view diffs, and initiate a commit.\n  \n  Other commands are available in the command palette (cmd+shift+p\n  on OS X, ctrl+shift+p on Windows/Linux). They are all prefixed\n  with \"Git:\" and most of them do exactly what it says on the label.\n  \n  \n  Tutorial\n  --------\n  For the full tutorial, go to:\n  \n      https://docs.sublimegit.net/tutorial.html\n  \n  \n  Trouble Getting Started?\n  ------------------------\n  If you are on windows, or don't usually use git from the command\n  line, there might be some things you'll need to set up. Go here\n  for instructions on how to get set up:\n  \n      https://docs.sublimegit.net/quickstart.html\n  \n  \n  Issues, Questions or Bugs?\n  --------------------------\n  Send a mail to support@sublimegit.net, or report it in the issue\n  tracker:\n  \n      https://github.com/SublimeGit/SublimeGit/issues\n",
+			"settings":
+			{
+				"buffer_size": 1447,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 191.0,
+		"last_filter": "git status",
+		"selected_items":
+		[
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Neil/Desktop/project"
+	],
+	"file_history":
+	[
+		"/C/Users/Neil/Desktop/project/webpack.config.js",
+		"/C/Users/Neil/Desktop/project/app/index.html",
+		"/C/Git/Oasis/Oasis/Oasis.Webservices/Oasis.Webservices.Rest.MobileAPI/Web.config",
+		"/C/Users/Neil/Desktop/project/app/index.js",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Neil/Desktop/project/.babelrc",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Git/Master/Oasis/OasisManageService/OasisManageService/packages.config",
+		"/C/Git/Master/Oasis/OasisManageService/OasisManageServiceTestbed/packages.config",
+		"/C/Users/Neil/Desktop/project/package.json",
+		"/C/Users/Neil/Documents/SQL Scripts/Add Service to SQS Queues.sql",
+		"/C/Users/Neil/Downloads/ios-export-fixed.jsx",
+		"/C/Users/Neil/Downloads/android-export-square.jsx",
+		"/C/Users/Neil/Downloads/us-everything-export.jsx",
+		"/C/Users/Neil/Downloads/credentials.csv",
+		"/C/Users/Neil/AppData/Local/Temp/Temp1_pilot-b-20151101000000-20160307120206.zip/pilot-b-20151101000000-20160307120206.csv",
+		"/C/Chris Source/SourceSubversion/Wunelli.Data.DB/Wunelli.Data.DB/VehicleInformation.cs",
+		"/C/results.txt",
+		"/C/Users/Neil/Documents/SQL Scripts/Monthly Billing Counts.txt",
+		"/C/Users/Neil/Desktop/canada-imeis.csv",
+		"/C/Windows/Minidump/030216-4296-01.dmp",
+		"/C/Users/Neil/Desktop/us-export-to-ios.jsx",
+		"/C/Users/Neil/Downloads/Create Policy.txt",
+		"/C/Users/Neil/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/2SW1E0SA/ATT00001.txt",
+		"/C/Git/Oasis/Oasis/Oasis/Oasis.csproj.user",
+		"/C/Git/Oasis/Oasis/Oasis/.ebextensions/Deployment.config",
+		"/C/Users/Neil/Desktop/2067195-dump-extra.csv",
+		"/C/Users/Neil/Documents/Documentation/AWS Credentials.txt",
+		"/C/Users/Neil/Desktop/CopiedFromProd.config",
+		"/C/Users/Neil/AppData/Roaming/Skype/My Skype Received Files/CombinedTrip5_16_01_2016_11_00_00A.csv.transferred_flag",
+		"/C/Git/RAC/InsuranceSocial/InsuranceSocial.sln",
+		"/C/Git/RAC/InsuranceSocial/2017550-dump.csv",
+		"/C/Users/Neil/Desktop/2017550-dump.csv",
+		"/C/SVN/wunelli_manage_service/trunk/WunelliManageService/WunelliManageService/app.PROD.config",
+		"/C/SVN/wunelli_manage_service/trunk/WunelliManageService/WunelliManageService/app.config",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/ERROR/CombinedTrip3_09_12_2015_11_00_08.csv",
+		"/C/Users/Neil/.gitconfig",
+		"/C/Users/Neil/Documents/Documentation/SVN Details.txt",
+		"/C/Git/Oasis/Oasis/.vs/config/applicationhost_BASE_14252.config",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestCompletedFiles/CombinedTrip0_03_08_2014_12_00_06C.csv.transferred_flag",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/CombinedTrip16_01_02_2016_09_00_06.csv",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/ERROR/CombinedTrip0_10_12_2015_11_00_09.csv.transferred_flag",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/CombinedTrip2_01_02_2016_09_00_06.csv.transferred_flag",
+		"/C/temp/logs/201624",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestErrorFiles/CombinedTrip2_01_02_2016_09_00_06.csv",
+		"//nas/KUIPER/KuiperData/Group Data/Developers/Customer Info/Wunelli/TestCompletedFiles/CombinedTrip0_03_08_2014_12_00_06C.csv",
+		"/D/New Text Document.txt",
+		"/C/Users/Neil/Documents/IISExpress/config/applicationhost.config",
+		"/C/Chris Source/VS2013ProductKey.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"trip"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								648,
+								648
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Neil/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
