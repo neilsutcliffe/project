@@ -19671,6 +19671,7 @@
 
 	var Main = __webpack_require__(218);
 	var Home = __webpack_require__(219);
+	var PromptContainer = __webpack_require__(220);
 
 	var routes = React.createElement(
 		Router,
@@ -19678,7 +19679,9 @@
 		React.createElement(
 			Route,
 			{ path: '/', component: Main },
-			React.createElement(Route, { path: '/home', component: Home })
+			React.createElement(IndexRoute, { component: Home }),
+			React.createElement(Route, { path: 'playerOne', header: 'Player One', component: PromptContainer }),
+			React.createElement(Route, { path: 'playerTwo/:playerOne', header: 'Player Two', component: PromptContainer })
 		)
 	);
 
@@ -24760,7 +24763,6 @@
 			return React.createElement(
 				'div',
 				null,
-				' Hello from Main',
 				this.props.children
 			);
 		}
@@ -24774,6 +24776,9 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(2);
+	var transparentBg = __webpack_require__(221).transparentBg;
+	var ReactRouter = __webpack_require__(161);
+	var Link = ReactRouter.Link;
 
 	var Home = React.createClass({
 		displayName: 'Home',
@@ -24781,14 +24786,157 @@
 		render: function () {
 			return React.createElement(
 				'div',
-				null,
-				' Hello from Home! '
+				{ className: 'jumbotron col-sm-12 text-center', style: transparentBg },
+				React.createElement(
+					'h1',
+					null,
+					'Github Battle'
+				),
+				React.createElement(
+					'p',
+					{ className: 'lead' },
+					'Some fancy motto'
+				),
+				React.createElement(
+					Link,
+					{ to: '/playerOne' },
+					React.createElement(
+						'button',
+						{ type: 'button', className: 'btn btn-lg btn-success' },
+						'Get Started'
+					)
+				)
 			);
 		}
 
 	});
 
 	module.exports = Home;
+
+/***/ },
+/* 220 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var React = __webpack_require__(2);
+	var Prompt = __webpack_require__(222);
+
+	var PromptContainer = React.createClass({
+		displayName: 'PromptContainer',
+
+		contextTypes: {
+			router: React.PropTypes.object.isRequired
+		},
+		getInitialState: function () {
+			return {
+				username: ''
+			};
+		},
+		handleUpdateUser: function (e) {
+			this.setState({
+				username: e.target.value
+			});
+		},
+		handleSubmitUser: function (e) {
+			e.preventDefault();
+			var username = this.state.username;
+			this.setState({
+				username: ''
+			});
+
+			if (this.props.routeParams.playerOne) {
+				this.context.router.push({
+					pathname: '/battle',
+					query: {
+						playerOne: this.props.routeParams.playerOne,
+						playerTwo: this.state.username
+					}
+
+				});
+			} else {
+				this.context.router.push('/playerTwo/' + this.state.username); // Player two
+			}
+		},
+		render: function () {
+			return React.createElement(Prompt, {
+				onSubmitUser: this.handleSubmitUser,
+				onUpdateUser: this.handleUpdateUser,
+				header: this.props.route.header,
+				username: this.state.username
+			});
+		}
+	});
+
+	module.exports = PromptContainer;
+
+/***/ },
+/* 221 */
+/***/ function(module, exports) {
+
+	var styles = {
+		transparentBg: {
+			background: 'transparent'
+		}
+	};
+
+	module.exports = styles;
+
+/***/ },
+/* 222 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var React = __webpack_require__(2);
+	var PropTypes = React.PropTypes;
+	var transparentBg = __webpack_require__(221).transparentBg;
+
+	function Prompt(props) {
+		return React.createElement(
+			'div',
+			{ className: 'jumbotrron col-sm-6 col-sm-offset-3 text-center', style: transparentBg },
+			React.createElement(
+				'h1',
+				null,
+				props.header
+			),
+			React.createElement(
+				'div',
+				{ className: 'col-sm-12' },
+				React.createElement(
+					'form',
+					{ onSubmit: props.onSubmitUser },
+					React.createElement(
+						'div',
+						{ className: 'form-group' },
+						React.createElement('input', {
+							className: 'form-control',
+							placeholder: 'GitHub Username',
+							onChange: props.onUpdateUser,
+							value: props.username,
+							type: 'text' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'form-group col-sm-4 col-sm-offset-4' },
+						React.createElement(
+							'button',
+							{
+								className: 'btn btn-block btn-success',
+								type: 'submit' },
+							'Continue'
+						)
+					)
+				)
+			)
+		);
+	}
+
+	Prompt.PropTypes = {
+		header: PropTypes.string.isRequired,
+		onUpdateUser: PropTypes.func.inRequired,
+		onSubmitUser: PropTypes.func.inRequired,
+		username: PropTypes.string.inRequired
+	};
+
+	module.exports = Prompt;
 
 /***/ }
 /******/ ]);
