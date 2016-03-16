@@ -19671,7 +19671,8 @@
 
 	var Main = __webpack_require__(218);
 	var Home = __webpack_require__(219);
-	var PromptContainer = __webpack_require__(220);
+	var PromptContainer = __webpack_require__(221);
+	var ConfirmBattleContainer = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../containers/ConfirmBattleContainer\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var routes = React.createElement(
 		Router,
@@ -19681,7 +19682,8 @@
 			{ path: '/', component: Main },
 			React.createElement(IndexRoute, { component: Home }),
 			React.createElement(Route, { path: 'playerOne', header: 'Player One', component: PromptContainer }),
-			React.createElement(Route, { path: 'playerTwo/:playerOne', header: 'Player Two', component: PromptContainer })
+			React.createElement(Route, { path: 'playerTwo/:playerOne', header: 'Player Two', component: PromptContainer }),
+			React.createElement(Route, { path: 'battle', component: ConfirmBattleContainer })
 		)
 	);
 
@@ -24776,7 +24778,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(2);
-	var transparentBg = __webpack_require__(221).transparentBg;
+	var transparentBg = __webpack_require__(220).transparentBg;
 	var ReactRouter = __webpack_require__(161);
 	var Link = ReactRouter.Link;
 
@@ -24815,6 +24817,18 @@
 
 /***/ },
 /* 220 */
+/***/ function(module, exports) {
+
+	var styles = {
+		transparentBg: {
+			background: 'transparent'
+		}
+	};
+
+	module.exports = styles;
+
+/***/ },
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(2);
@@ -24869,24 +24883,12 @@
 	module.exports = PromptContainer;
 
 /***/ },
-/* 221 */
-/***/ function(module, exports) {
-
-	var styles = {
-		transparentBg: {
-			background: 'transparent'
-		}
-	};
-
-	module.exports = styles;
-
-/***/ },
 /* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(2);
 	var PropTypes = React.PropTypes;
-	var transparentBg = __webpack_require__(221).transparentBg;
+	var transparentBg = __webpack_require__(220).transparentBg;
 
 	function Prompt(props) {
 		return React.createElement(
